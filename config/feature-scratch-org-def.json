@@ -1,0 +1,10 @@
+{
+  "orgName": "Feature scratch org",
+  "country": "GB",
+  "edition": "Enterprise",
+  "hasSampleData": false,
+  "language": "en_US",
+  "features": [
+    "API"
+  ]
+}
