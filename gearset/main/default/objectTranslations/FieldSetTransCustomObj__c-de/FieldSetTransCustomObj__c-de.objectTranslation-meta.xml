@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- FieldSetTransCustomObj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- FieldSetTransCustomObj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- FieldSetTransCustomObj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- FieldSetTransCustomObj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- FieldSetTransCustomObj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- FieldSetTransCustomObj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- FieldSetTransCustomObj --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- FieldSetTransCustomObj --></value>
+    </caseValues>
+    
+    
+    <fieldSets>
+        <label>FieldSet4563GermanNew</label>
+        <name>FieldSet4563Name</name>
+    </fieldSets>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- FieldSetTransCustomObj Name --></nameFieldLabel>
+    <sharingReasons>
+        <label><!-- SomeSharingReason --></label>
+        <name>SomeSharingReason</name>
+    </sharingReasons>
+    <validationRules>
+        <errorMessage><!-- Uh -oh! --></errorMessage>
+        <name>SomeValidRule</name>
+    </validationRules>
+</CustomObjectTranslation>

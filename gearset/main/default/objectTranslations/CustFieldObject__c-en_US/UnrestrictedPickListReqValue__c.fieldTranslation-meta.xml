@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- UnrestrictedPickListReqValue --></label>
+        <name>UnrestrictedPickListReqValue__c</name>
+        <picklistValues>
+            <masterLabel>UnrestrictedPickListReqValueTypeA</masterLabel>
+            <translation><!-- UnrestrictedPickListReqValueTypeA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnrestrictedPickListReqValueTypeB</masterLabel>
+            <translation><!-- UnrestrictedPickListReqValueTypeB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnrestrictedPickListReqValueTypeC</masterLabel>
+            <translation><!-- UnrestrictedPickListReqValueTypeC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnrestrictedPickListReqValueTypeD</masterLabel>
+            <translation><!-- UnrestrictedPickListReqValueTypeD --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

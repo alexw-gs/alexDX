@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ObjectWithComponents</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ObjectWithComponentss</value>
+    </caseValues>
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- AFieldSet --></label>
+        <name>AFieldSet</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- ARecordType --></label>
+        <name>ARecordType</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- ASharingReason --></label>
+        <name>ASharingReason</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- ASharingReason --></label>
+        <name>ASharingReasonAA</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- An error message --></errorMessage>
+        <name>AValidationRule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AWeblink --></label>
+        <name>AWeblink</name>
+    </webLinks>
+</CustomObjectTranslation>
