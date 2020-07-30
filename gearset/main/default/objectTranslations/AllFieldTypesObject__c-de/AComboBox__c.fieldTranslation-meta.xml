@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- AComboBox --></label>
+        <name>AComboBox__c</name>
+        <picklistValues>
+            <masterLabel>someComboBox1</masterLabel>
+            <translation><!-- someComboBox1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>someComboBox2</masterLabel>
+            <translation><!-- someComboBox2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>someComboBox3</masterLabel>
+            <translation><!-- someComboBox3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>someComboBox4</masterLabel>
+            <translation><!-- someComboBox4 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>
