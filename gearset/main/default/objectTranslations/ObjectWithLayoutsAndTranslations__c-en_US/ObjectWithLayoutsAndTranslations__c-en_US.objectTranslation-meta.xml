@@ -11,10 +11,6 @@
     <layouts>
         <layout>AnotherLayoutWithTanslation</layout>
         <sections>
-            <label>some delete translation eng</label>
-            <section>A translation section to delete</section>
-        </sections>
-        <sections>
             <label>English translation for cust links</label>
             <section>Custom Links</section>
         </sections>

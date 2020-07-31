@@ -45,10 +45,6 @@
     <layouts>
         <layout>AnotherLayoutWithTanslation</layout>
         <sections>
-            <label>some delete translation ger</label>
-            <section>A translation section to delete</section>
-        </sections>
-        <sections>
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>
         </sections>
