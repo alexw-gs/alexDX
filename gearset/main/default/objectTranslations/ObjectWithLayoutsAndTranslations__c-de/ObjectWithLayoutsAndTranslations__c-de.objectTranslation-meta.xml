@@ -45,7 +45,7 @@
     <layouts>
         <layout>AnotherLayoutWithTanslation</layout>
         <sections>
-            <label><!-- A translation section to delete --></label>
+            <label>some delete translation ger</label>
             <section>A translation section to delete</section>
         </sections>
         <sections>
@@ -57,14 +57,14 @@
             <section>Section with no translations</section>
         </sections>
         <sections>
-            <label><!-- Section with translation to keep --></label>
+            <label>some keep translation ger</label>
             <section>Section with translation to keep</section>
         </sections>
     </layouts>
     <layouts>
         <layout>ObjectWithLayoutsAndTranslations Layout</layout>
         <sections>
-            <label><!-- A section with translations --></label>
+            <label>german trans</label>
             <section>A section with translations</section>
         </sections>
         <sections>
@@ -72,5 +72,6 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    
     <nameFieldLabel><!-- ObjectWithLayoutsAndTranslations Name --></nameFieldLabel>
 </CustomObjectTranslation>

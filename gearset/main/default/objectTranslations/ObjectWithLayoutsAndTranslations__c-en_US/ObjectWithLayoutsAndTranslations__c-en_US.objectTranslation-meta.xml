@@ -8,11 +8,10 @@
         <plural>true</plural>
         <value>ObjectWithLayoutsAndTranslations</value>
     </caseValues>
-    
     <layouts>
         <layout>AnotherLayoutWithTanslation</layout>
         <sections>
-            <label><!-- A translation section to delete --></label>
+            <label>some delete translation eng</label>
             <section>A translation section to delete</section>
         </sections>
         <sections>
@@ -24,14 +23,14 @@
             <section>Section with no translations</section>
         </sections>
         <sections>
-            <label><!-- Section with translation to keep --></label>
+            <label>some keep translation eng</label>
             <section>Section with translation to keep</section>
         </sections>
     </layouts>
     <layouts>
         <layout>ObjectWithLayoutsAndTranslations Layout</layout>
         <sections>
-            <label><!-- A section with translations --></label>
+            <label>eng trans</label>
             <section>A section with translations</section>
         </sections>
         <sections>
@@ -39,5 +38,6 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
