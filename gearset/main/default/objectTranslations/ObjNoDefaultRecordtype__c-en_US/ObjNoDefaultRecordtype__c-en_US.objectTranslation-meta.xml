@@ -8,8 +8,6 @@
         <plural>true</plural>
         <value>ObjNoDefaultRecordtypes</value>
     </caseValues>
-    
-    
     <recordTypes>
         <label><!-- AlexrecordType --></label>
         <name>AlexrecordType</name>
@@ -18,5 +16,18 @@
         <label><!-- AlexrecordType2 --></label>
         <name>AlexrecordType2</name>
     </recordTypes>
+    
+    
+    <layouts>
+        <layout>AlexPageLayout2</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
