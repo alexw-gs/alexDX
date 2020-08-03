@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- ObjectWithLayoutsAndTranslations --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- ObjectWithLayoutsAndTranslations --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- ObjectWithLayoutsAndTranslations --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- ObjectWithLayoutsAndTranslations --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- ObjectWithLayoutsAndTranslations --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- ObjectWithLayoutsAndTranslations --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- ObjectWithLayoutsAndTranslations --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- ObjectWithLayoutsAndTranslations --></value>
+    </caseValues>
+    
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>AnotherLayoutWithTanslation</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Section with no translations --></label>
+            <section>Section with no translations</section>
+        </sections>
+        <sections>
+            <label>some keep translation ger</label>
+            <section>Section with translation to keep</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ObjectWithLayoutsAndTranslations Layout</layout>
+        <sections>
+            <label>german trans</label>
+            <section>A section with translations</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- ObjectWithLayoutsAndTranslations Name --></nameFieldLabel>
+</CustomObjectTranslation>

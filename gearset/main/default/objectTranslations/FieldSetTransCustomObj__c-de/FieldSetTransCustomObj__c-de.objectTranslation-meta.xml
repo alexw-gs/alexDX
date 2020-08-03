@@ -40,8 +40,6 @@
         <plural>true</plural>
         <value><!-- FieldSetTransCustomObj --></value>
     </caseValues>
-    
-    
     <fieldSets>
         <label>FieldSet4563GermanNew</label>
         <name>FieldSet4563Name</name>
@@ -56,4 +54,24 @@
         <errorMessage><!-- Uh -oh! --></errorMessage>
         <name>SomeValidRule</name>
     </validationRules>
+    
+    
+    <layouts>
+        <layout>PagelayoutA</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PagelayoutB</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>
