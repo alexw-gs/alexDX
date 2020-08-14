@@ -45,6 +45,10 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>UpdateBannerPhotoAction</actionName>
         <type>Default</type>
     </actionOverrides>

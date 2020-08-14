@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>GlobalPickListEntry1</fullName>
+        <default>false</default>
+        <label>GlobalPickListEntry1</label>
+    </customValue>
+    <customValue>
+        <fullName>GlobalPickListEntry2</fullName>
+        <default>false</default>
+        <label>GlobalPickListEntry2</label>
+    </customValue>
+    <customValue>
+        <fullName>GlobalPickListEntry3</fullName>
+        <default>false</default>
+        <label>GlobalPickListEntry3</label>
+    </customValue>
+    <customValue>
+        <fullName>GlobalPickListEntry4</fullName>
+        <default>false</default>
+        <label>GlobalPickListEntry4</label>
+    </customValue>
+    <masterLabel>GlobalPickList</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
