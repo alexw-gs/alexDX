@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <caseType>Nominative</caseType>
@@ -44,6 +44,21 @@
     <gender><!-- Neuter --></gender>
     <layouts>
         <layout>AnotherLayoutWithTanslation</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Section with no translations --></label>
+            <section>Section with no translations</section>
+        </sections>
+        <sections>
+            <label>some keep translation ger</label>
+            <section>Section with translation to keep</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LayoutWeWillDelete</layout>
         <sections>
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>

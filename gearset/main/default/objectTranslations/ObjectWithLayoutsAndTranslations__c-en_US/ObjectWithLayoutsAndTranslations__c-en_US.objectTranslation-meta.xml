@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
@@ -10,6 +10,21 @@
     </caseValues>
     <layouts>
         <layout>AnotherLayoutWithTanslation</layout>
+        <sections>
+            <label>English translation for cust links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Section with no translations --></label>
+            <section>Section with no translations</section>
+        </sections>
+        <sections>
+            <label>some keep translation eng</label>
+            <section>Section with translation to keep</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LayoutWeWillDelete</layout>
         <sections>
             <label>English translation for cust links</label>
             <section>Custom Links</section>
