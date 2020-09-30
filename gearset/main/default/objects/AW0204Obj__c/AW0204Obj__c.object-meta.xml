@@ -60,5 +60,13 @@
     <pluralLabel>AW0204Objs</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
+    <sharingReasons>
+        <fullName>Sharing_Reason1__c</fullName>
+        <label>Sharing Reason1</label>
+    </sharingReasons>
+    <sharingReasons>
+        <fullName>Sharing_Reason2__c</fullName>
+        <label>Sharing Reason2</label>
+    </sharingReasons>
     <visibility>Public</visibility>
 </CustomObject>
