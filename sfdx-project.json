@@ -7,6 +7,10 @@
     ],
 
     "namespace": "",
+<<<<<<< HEAD
     "sfdcLoginUrl": "https://login.salesforce.com",
+=======
+    "sfdcLoginUrl": "https://login.salesforce.com", blah
+>>>>>>> other_branch
     "sourceApiVersion": "45.0"
 }
