@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RestrictedPickList__c</fullName>
+    <externalId>false</externalId>
+    <label>RestrictedPickList</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RestrictedPickListTypeA</fullName>
+                <default>false</default>
+                <label>RestrictedPickListTypeA</label>
+            </value>
+            <value>
+                <fullName>RestrictedPickListTypeB</fullName>
+                <default>false</default>
+                <label>RestrictedPickListTypeB</label>
+            </value>
+            <value>
+                <fullName>RestrictedPickListTypeC</fullName>
+                <default>false</default>
+                <label>RestrictedPickListTypeC</label>
+            </value>
+            <value>
+                <fullName>RestrictedPickListTypeD</fullName>
+                <default>false</default>
+                <label>RestrictedPickListTypeD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

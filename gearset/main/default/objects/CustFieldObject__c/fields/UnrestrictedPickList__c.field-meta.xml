@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UnrestrictedPickList__c</fullName>
+    <externalId>false</externalId>
+    <label>UnrestrictedPickList</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>UnrestrictedPickListA</fullName>
+                <default>false</default>
+                <label>UnrestrictedPickListA</label>
+            </value>
+            <value>
+                <fullName>UnrestrictedPickListB</fullName>
+                <default>false</default>
+                <label>UnrestrictedPickListB</label>
+            </value>
+            <value>
+                <fullName>UnrestrictedPickListC</fullName>
+                <default>false</default>
+                <label>UnrestrictedPickListC</label>
+            </value>
+            <value>
+                <fullName>UnrestrictedPickListD</fullName>
+                <default>false</default>
+                <label>UnrestrictedPickListD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
