@@ -1,0 +1,17 @@
+.CoveoSearchInterface .coveo-user-actions-dropdown-header.coveo-dropdown-header,
+.CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header,
+.CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header,
+.CoveoSearchInterface.coveo-small-recommendation .coveo-dropdown-header {
+  min-width: 0;
+  white-space: nowrap; }
+  .CoveoSearchInterface .coveo-user-actions-dropdown-header.coveo-dropdown-header p,
+  .CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header p,
+  .CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header p,
+  .CoveoSearchInterface.coveo-small-recommendation .coveo-dropdown-header p {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle; }
+
+.coveo-facet-dropdown-header.coveo-dropdown-header.coveo-accessible-button {
+  flex-shrink: 0; }

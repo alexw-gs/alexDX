@@ -1,0 +1,940 @@
+.CoveoResult .CoveoChatterThumbnail .coveo-chatter-thumbnail-img {
+  border-radius: 50%; }
+
+.CoveoResult .CoveoChatterThumbnail .coveo-chatter-thumbnail-placeholder {
+  text-align: center;
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px; }
+
+.CoveoResult .coveo-salesforce-thumbnail-container.coveo-salesforce-thumbnail-placeholder {
+  text-align: center; }
+
+.CoveoResult .coveo-salesforce-thumbnail-container.coveo-salesforce-thumbnail-placeholder > img.coveo-salesforce-thumbnail-img {
+  display: none; }
+
+.CoveoSearchInterface.coveo-chat-ended .CoveoResultActionsSendLiveAgent {
+  display: none; }
+
+.CoveoResultActionsMenu {
+  display: none;
+  position: relative;
+  height: 1.5rem;
+  right: 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: -24px;
+  background: white; }
+  .CoveoResultActionsMenu .coveo-hidden {
+    display: none; }
+  .CoveoResultActionsMenu.coveo-menu-opened {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    float: right; }
+  .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item {
+    height: initial;
+    padding: 0 8px;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    border-left: 1px solid #ccc;
+    line-height: 1.5em; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:first-child {
+      border-radius: 6px 0 0 6px; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:last-child {
+      border-radius: 0 6px 6px 0; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item.coveo-hidden {
+      display: none; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:not(.coveo-hidden):not([style*="display: none"]) {
+      border-left: none; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:not(.coveo-hidden):not([style*="display: none"]) ~ .coveo-result-actions-menu-menu-item:not(.coveo-hidden):not([style*="display: none"]) {
+      border-left: thin solid #bcc3ca; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:first-child {
+      border: transparent; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item.CoveoAttachToCase span {
+      visibility: visible;
+      height: 100%; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-icon-for-quickview-svg {
+      margin: 0; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:hover {
+      background-color: #f3f2f2; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item svg {
+      height: 16px;
+      width: 16px;
+      fill: #1d4f76;
+      vertical-align: middle; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item.CoveoQuickview:hover .coveo-caption-for-icon {
+      /* reset the value to initial for the quickview so popperjs can work properly. */
+      bottom: initial; }
+      .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item.CoveoQuickview:hover .coveo-caption-for-icon:before {
+        border: transparent; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:hover .coveo-caption-for-icon {
+      display: inline;
+      bottom: 30px;
+      transform: translateX(-50%);
+      left: 50%; }
+    .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-caption-for-icon {
+      font-size: 12px;
+      display: none;
+      background: #263e55;
+      color: white;
+      border-radius: 2px;
+      padding: 6px 16px;
+      position: absolute;
+      white-space: nowrap;
+      z-index: 99; }
+      .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item .coveo-caption-for-icon:before {
+        border: solid;
+        border-color: #263e55 transparent;
+        border-width: 7px 6px 0;
+        content: "";
+        position: absolute;
+        z-index: 99;
+        bottom: -6px;
+        top: initial;
+        left: calc(50% - 6px); }
+
+.CoveoResultActionsPostToFeed,
+.CoveoResultActionsSendEmail,
+.CoveoResultActionsSendLiveAgent,
+.CoveoResultQuickAction {
+  cursor: pointer;
+  position: relative;
+  margin: 0 0 0 0.5em;
+  line-height: 1.5em;
+  text-align: center; }
+  .CoveoResultActionsPostToFeed svg,
+  .CoveoResultActionsSendEmail svg,
+  .CoveoResultActionsSendLiveAgent svg,
+  .CoveoResultQuickAction svg {
+    height: 16px;
+    width: 16px;
+    fill: #1d4f76;
+    vertical-align: middle; }
+  .CoveoResultActionsPostToFeed.coveo-hidden,
+  .CoveoResultActionsSendEmail.coveo-hidden,
+  .CoveoResultActionsSendLiveAgent.coveo-hidden,
+  .CoveoResultQuickAction.coveo-hidden {
+    display: none; }
+  .CoveoResultActionsPostToFeed > span,
+  .CoveoResultActionsSendEmail > span,
+  .CoveoResultActionsSendLiveAgent > span,
+  .CoveoResultQuickAction > span {
+    display: inline-block; }
+  .CoveoResultActionsPostToFeed:hover .coveo-caption-for-icon,
+  .CoveoResultActionsSendEmail:hover .coveo-caption-for-icon,
+  .CoveoResultActionsSendLiveAgent:hover .coveo-caption-for-icon,
+  .CoveoResultQuickAction:hover .coveo-caption-for-icon {
+    display: inline;
+    bottom: 26px;
+    transform: translateX(-50%);
+    left: 50%; }
+  .CoveoResultActionsPostToFeed .coveo-caption-for-icon,
+  .CoveoResultActionsSendEmail .coveo-caption-for-icon,
+  .CoveoResultActionsSendLiveAgent .coveo-caption-for-icon,
+  .CoveoResultQuickAction .coveo-caption-for-icon {
+    font-size: 12px;
+    display: none;
+    background: #263e55;
+    color: white;
+    border-radius: 2px;
+    padding: 6px 16px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 99; }
+    .CoveoResultActionsPostToFeed .coveo-caption-for-icon:before,
+    .CoveoResultActionsSendEmail .coveo-caption-for-icon:before,
+    .CoveoResultActionsSendLiveAgent .coveo-caption-for-icon:before,
+    .CoveoResultQuickAction .coveo-caption-for-icon:before {
+      border: solid;
+      border-color: #263e55 transparent;
+      border-width: 7px 6px 0;
+      content: "";
+      position: absolute;
+      z-index: 99;
+      bottom: -6px;
+      top: initial;
+      left: calc(50% - 6px); }
+
+/*
+* @param direction vertical or horizontal
+* @param position type of positioning to apply (relative/absolute)
+*/
+/*
+* @param $selector css selector on which to apply the icon. Can be '&' if the icon should be applied on the current element;
+* @param $size size of the icon to use
+*/
+@-webkit-keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-moz-keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-o-keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+@-moz-keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+@-o-keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+.CoveoAttachToCase {
+  height: 18px;
+  display: inline-block; }
+  .CoveoAttachToCase > div {
+    position: relative;
+    height: 100%; }
+  .CoveoAttachToCase .coveo-attach-to-case-icon {
+    display: inline-block; }
+  .CoveoAttachToCase:hover .coveo-caption-for-icon {
+    display: block; }
+  .CoveoAttachToCase .coveo-caption-for-icon {
+    font-size: 12px;
+    display: none;
+    background: #263E55;
+    color: white;
+    border-radius: 2px;
+    padding: 6px 16px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    transform: translate(calc(16px / 2 - 50%), 6px); }
+    .CoveoAttachToCase .coveo-caption-for-icon:before {
+      border: solid;
+      border-color: #263E55 transparent;
+      border-width: 0 6px 7px;
+      content: '';
+      position: absolute;
+      z-index: 99;
+      top: -6px;
+      left: calc(50% - 6px); }
+  .CoveoAttachToCase span {
+    display: inline-block;
+    color: #adadad;
+    cursor: pointer;
+    vertical-align: middle; }
+    .CoveoAttachToCase span.coveo-attach-to-case-text {
+      display: inline-block;
+      color: #adadad;
+      cursor: pointer;
+      vertical-align: middle;
+      padding-left: 5px; }
+    .CoveoAttachToCase span:before {
+      display: inline-block;
+      content: '';
+      vertical-align: middle; }
+
+.CoveoAttachToCase {
+  height: 18px;
+  display: inline-block; }
+  .CoveoAttachToCase > span {
+    padding: 0px 1px 0px 1px; }
+  .CoveoAttachToCase .coveo-readonly * {
+    cursor: inherit; }
+  .CoveoAttachToCase .coveo-attached svg.coveo-attach-icon {
+    display: inline-block;
+    fill: #ecad00; }
+  .CoveoAttachToCase .coveo-attach svg.coveo-attach-icon, .CoveoAttachToCase .coveo-icon-loading svg.coveo-attach-icon {
+    display: inline-block;
+    fill: #1d4f76; }
+  .CoveoAttachToCase .coveo-loading svg.coveo-loading-icon {
+    display: inline-block;
+    fill: #373737;
+    animation: loading 0.8s linear 0s infinite normal running; }
+  .CoveoAttachToCase .coveo-loading svg.coveo-attach-icon {
+    display: none; }
+  .CoveoAttachToCase svg.coveo-attach-icon {
+    display: none;
+    height: 1em;
+    width: 1em;
+    vertical-align: sub; }
+  .CoveoAttachToCase svg.coveo-loading-icon {
+    display: none;
+    height: 1em;
+    width: 1em;
+    vertical-align: sub; }
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.coveo-create-article-dropdown-header, .coveo-full-search-dropdown-header {
+  border: thin solid #bcc3ca;
+  border-radius: 2px;
+  background-color: white; }
+
+.CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header .coveo-create-article-dropdown-content,
+.CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header .coveo-create-article-dropdown-content,
+.CoveoSearchInterface.coveo-small-recommendation .coveo-dropdown-header .coveo-create-article-dropdown-content, .CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header .coveo-full-search-dropdown-content, .CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header .coveo-full-search-dropdown-content, .CoveoSearchInterface.coveo-small-recommendation .coveo-dropdown-header .coveo-full-search-dropdown-content {
+  display: block;
+  position: relative;
+  z-index: 20;
+  top: -25px;
+  border: thin solid #bcc3ca;
+  border-radius: 2px;
+  background-color: white;
+  list-style: none;
+  padding: 0px; }
+
+.coveo-create-article-dropdown-content li {
+  min-width: 100px;
+  height: 30px;
+  padding: 5px;
+  clear: both;
+  white-space: nowrap; }
+  .coveo-create-article-dropdown-content li a {
+    color: #004990;
+    text-decoration: none;
+    font-size: 12px; }
+  .coveo-create-article-dropdown-content li:hover {
+    background-color: #e6ecf0; }
+
+button.CoveoActionButton.coveo-actionbutton {
+  height: 36px;
+  border: solid 2px #e5e5e5;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap; }
+
+.CoveoActionButton:not(.coveo-actionbutton-icononly) {
+  padding: 0 16px; }
+
+.CoveoActionButton.coveo-actionbutton-icononly {
+  width: 36px; }
+
+.CoveoActionButton .coveo-actionbutton_icon {
+  line-height: 0;
+  font-size: 16px; }
+  .CoveoActionButton .coveo-actionbutton_icon svg {
+    height: 1em;
+    width: 1em;
+    fill: #4a4a4a; }
+  .CoveoActionButton .coveo-actionbutton_icon + .coveo-actionbutton_title {
+    margin-left: 8px; }
+
+.CoveoActionButton + .coveo-actionbutton {
+  margin-left: 5px; }
+
+.CoveoActionButton.coveo-actionbutton:hover,
+.CoveoActionButton.coveo-actionbutton:active {
+  color: #4a4a4a;
+  background-color: whitesmoke; }
+
+.CoveoActionButton.coveo-actionbutton:hover .coveo-actionbutton_icon svg,
+.CoveoActionButton.coveo-actionbutton:active .coveo-actionbutton_icon svg {
+  fill: #4a4a4a; }
+
+.CoveoCreateArticleButton {
+  display: inline-block; }
+
+.coveo-create-article-dropdown-header, .coveo-full-search-dropdown-header {
+  border: thin solid #bcc3ca;
+  border-radius: 2px;
+  background-color: white; }
+
+.CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header .coveo-create-article-dropdown-content,
+.CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header .coveo-create-article-dropdown-content,
+.CoveoSearchInterface.coveo-small-recommendation .coveo-dropdown-header .coveo-create-article-dropdown-content, .CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header .coveo-full-search-dropdown-content, .CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header .coveo-full-search-dropdown-content, .CoveoSearchInterface.coveo-small-recommendation .coveo-dropdown-header .coveo-full-search-dropdown-content {
+  display: block;
+  position: relative;
+  z-index: 20;
+  top: -25px;
+  border: thin solid #bcc3ca;
+  border-radius: 2px;
+  background-color: white;
+  list-style: none;
+  padding: 0px; }
+
+.coveo-create-article-dropdown-content li {
+  min-width: 100px;
+  height: 30px;
+  padding: 5px;
+  clear: both;
+  white-space: nowrap; }
+  .coveo-create-article-dropdown-content li a {
+    color: #004990;
+    text-decoration: none;
+    font-size: 12px; }
+  .coveo-create-article-dropdown-content li:hover {
+    background-color: #e6ecf0; }
+
+button.CoveoActionButton.coveo-actionbutton {
+  height: 36px;
+  border: solid 2px #e5e5e5;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap; }
+
+.CoveoActionButton:not(.coveo-actionbutton-icononly) {
+  padding: 0 16px; }
+
+.CoveoActionButton.coveo-actionbutton-icononly {
+  width: 36px; }
+
+.CoveoActionButton .coveo-actionbutton_icon {
+  line-height: 0;
+  font-size: 16px; }
+  .CoveoActionButton .coveo-actionbutton_icon svg {
+    height: 1em;
+    width: 1em;
+    fill: #4a4a4a; }
+  .CoveoActionButton .coveo-actionbutton_icon + .coveo-actionbutton_title {
+    margin-left: 8px; }
+
+.CoveoActionButton + .coveo-actionbutton {
+  margin-left: 5px; }
+
+.CoveoActionButton.coveo-actionbutton:hover,
+.CoveoActionButton.coveo-actionbutton:active {
+  color: #4a4a4a;
+  background-color: whitesmoke; }
+
+.CoveoActionButton.coveo-actionbutton:hover .coveo-actionbutton_icon svg,
+.CoveoActionButton.coveo-actionbutton:active .coveo-actionbutton_icon svg {
+  fill: #4a4a4a; }
+
+button.CoveoActionButton.coveo-actionbutton {
+  height: 36px;
+  border: solid 2px #e5e5e5;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap; }
+
+.CoveoActionButton:not(.coveo-actionbutton-icononly) {
+  padding: 0 16px; }
+
+.CoveoActionButton.coveo-actionbutton-icononly {
+  width: 36px; }
+
+.CoveoActionButton .coveo-actionbutton_icon {
+  line-height: 0;
+  font-size: 16px; }
+  .CoveoActionButton .coveo-actionbutton_icon svg {
+    height: 1em;
+    width: 1em;
+    fill: #4a4a4a; }
+  .CoveoActionButton .coveo-actionbutton_icon + .coveo-actionbutton_title {
+    margin-left: 8px; }
+
+.CoveoActionButton + .coveo-actionbutton {
+  margin-left: 5px; }
+
+.CoveoActionButton.coveo-actionbutton:hover,
+.CoveoActionButton.coveo-actionbutton:active {
+  color: #4a4a4a;
+  background-color: whitesmoke; }
+
+.CoveoActionButton.coveo-actionbutton:hover .coveo-actionbutton_icon svg,
+.CoveoActionButton.coveo-actionbutton:active .coveo-actionbutton_icon svg {
+  fill: #4a4a4a; }
+
+button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled {
+  background-color: #ffffff;
+  border-color: #e5e5e5; }
+  button.CoveoActionButton.coveo-actionbutton.coveo-actionbutton-disabled .coveo-actionbutton_icon svg {
+    fill: #e5e5e5; }
+
+.CoveoFilterButton {
+  position: relative; }
+  .CoveoFilterButton.coveo-toggleactionbutton-activated {
+    z-index: 16; }
+
+/*
+* @param direction vertical or horizontal
+* @param position type of positioning to apply (relative/absolute)
+*/
+/*
+* @param $selector css selector on which to apply the icon. Can be '&' if the icon should be applied on the current element;
+* @param $size size of the icon to use
+*/
+@-webkit-keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-moz-keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-o-keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+@-moz-keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+@-o-keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+.CoveoInsightQuerySummary .coveo-insight-title {
+  color: #67768B; }
+
+button.CoveoActionButton.coveo-actionbutton {
+  height: 36px;
+  border: solid 2px #e5e5e5;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap; }
+
+.CoveoActionButton:not(.coveo-actionbutton-icononly) {
+  padding: 0 16px; }
+
+.CoveoActionButton.coveo-actionbutton-icononly {
+  width: 36px; }
+
+.CoveoActionButton .coveo-actionbutton_icon {
+  line-height: 0;
+  font-size: 16px; }
+  .CoveoActionButton .coveo-actionbutton_icon svg {
+    height: 1em;
+    width: 1em;
+    fill: #4a4a4a; }
+  .CoveoActionButton .coveo-actionbutton_icon + .coveo-actionbutton_title {
+    margin-left: 8px; }
+
+.CoveoActionButton + .coveo-actionbutton {
+  margin-left: 5px; }
+
+.CoveoActionButton.coveo-actionbutton:hover,
+.CoveoActionButton.coveo-actionbutton:active {
+  color: #4a4a4a;
+  background-color: whitesmoke; }
+
+.CoveoActionButton.coveo-actionbutton:hover .coveo-actionbutton_icon svg,
+.CoveoActionButton.coveo-actionbutton:active .coveo-actionbutton_icon svg {
+  fill: #4a4a4a; }
+
+button.CoveoActionButton.coveo-actionbutton.coveo-toggleactionbutton-activated {
+  background-color: #316084;
+  border-color: #316084; }
+  button.CoveoActionButton.coveo-actionbutton.coveo-toggleactionbutton-activated .coveo-actionbutton_icon svg {
+    fill: #ffffff; }
+
+.CoveoUserActionsButton {
+  display: inline-block; }
+
+.coveo-component-editor-body > .CoveoSearchInterface {
+  margin: 2rem auto 0;
+  font-size: 14px;
+  font-family: 'Salesforce Sans', Arial, sans-serif;
+  /* If the SearchInterface switches to "mobile mode" it will assign a card-layout-container to the result list. */
+  /* Override some of the JSUI default CSS */ }
+  .coveo-component-editor-body > .CoveoSearchInterface .CoveoSearchbox {
+    margin: 0px; }
+  .coveo-component-editor-body > .CoveoSearchInterface .coveo-results-column {
+    padding: 0;
+    overflow: initial; }
+  .coveo-component-editor-body > .CoveoSearchInterface .coveo-list-layout.CoveoResult {
+    padding: 10px 0; }
+  .coveo-component-editor-body > .CoveoSearchInterface .coveo-search-section {
+    margin: 0 0 10px 0;
+    padding: 0; }
+  .coveo-component-editor-body > .CoveoSearchInterface .CoveoResultList {
+    margin: 0; }
+  .coveo-component-editor-body > .CoveoSearchInterface .coveo-summary-section {
+    margin-top: 5px; }
+  .coveo-component-editor-body > .CoveoSearchInterface .coveo-tab-section {
+    background-color: transparent; }
+  .coveo-component-editor-body > .CoveoSearchInterface .coveo-facet-column {
+    float: unset; }
+  .coveo-component-editor-body > .CoveoSearchInterface .coveo-results-column.coveo-no-results {
+    max-width: initial;
+    margin: inherit;
+    padding-top: 10px; }
+  .coveo-component-editor-body > .CoveoSearchInterface .coveo-card-layout-container {
+    /* Overwrite of a weird css rule from search-ui. */
+    margin-right: 0; }
+  .coveo-component-editor-body > .CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header-wrapper a,
+  .coveo-component-editor-body > .CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header-wrapper a {
+    margin: 0 0 0 10px; }
+
+.coveo-label {
+  color: black;
+  font-size: 1em;
+  font-weight: normal; }
+
+.coveo-content {
+  color: black;
+  font-size: 1em; }
+
+.coveo-link {
+  color: #004990;
+  text-decoration: none; }
+  .coveo-link:hover {
+    text-decoration: underline; }
+
+.CoveoViewedByCustomer {
+  color: black;
+  font-weight: bold;
+  font-size: 14px; }
+  .CoveoViewedByCustomer .viewed-by-customer-icon {
+    vertical-align: baseline;
+    margin-right: 0.5em; }
+    .CoveoViewedByCustomer .viewed-by-customer-icon svg {
+      height: 1em;
+      width: 1em;
+      vertical-align: middle; }
+  .CoveoViewedByCustomer .viewed-by-customer-label {
+    vertical-align: middle;
+    line-height: 1em; }
+
+.CoveoSearchInterface .coveo-user-actions-dropdown-header.coveo-dropdown-header,
+.CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header,
+.CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header,
+.CoveoSearchInterface.coveo-small-recommendation .coveo-dropdown-header {
+  min-width: 0;
+  white-space: nowrap; }
+  .CoveoSearchInterface .coveo-user-actions-dropdown-header.coveo-dropdown-header p,
+  .CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header p,
+  .CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header p,
+  .CoveoSearchInterface.coveo-small-recommendation .coveo-dropdown-header p {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle; }
+
+.coveo-facet-dropdown-header.coveo-dropdown-header.coveo-accessible-button {
+  flex-shrink: 0; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .coveo-summary-section {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  margin-bottom: 10px; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .coveo-search-section {
+  margin-bottom: 0; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoInsightQuerySummary .coveo-insight-title {
+  color: #4a4a4a; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoQuerySummary {
+  color: #4a4a4a; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .coveo-actionbutton-section {
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 5px; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .coveo-actionbutton-section > .CoveoActionButton {
+  margin-left: 5px; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .coveo-actionbutton-section > .CoveoActionButton:first {
+  margin-left: 0; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchButton {
+  display: none; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchbox .magic-box {
+  height: 36px;
+  border: none;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTUuMDA0IiB3aWR0aD0iMTUuMDAxIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiM5YjliOWIiIGQ9Ik0yLjAxMyA2LjAyOWE0LjAyNSA0LjAyNSAwIDAxNC4wMi00LjAyIDQuMDI1IDQuMDI1IDAgMDE0LjAyIDQuMDIgNC4wMjUgNC4wMjUgMCAwMS00LjAyIDQuMDIgNC4wMjQgNC4wMjQgMCAwMS00LjAyLTQuMDJtMTIuNjk2IDcuMjU2TDEwLjk0IDkuNTE3YTUuOTkxIDUuOTkxIDAgMDAxLjEyLTMuNDg3QTYuMDM2IDYuMDM2IDAgMDA2LjAzIDAgNi4wMzYgNi4wMzYgMCAwMDAgNi4wM2E2LjAzNiA2LjAzNiAwIDAwNi4wMyA2LjAzYzEuMyAwIDIuNTAyLS40MTggMy40ODctMS4xMmwzLjc2OSAzLjc2OWExLjAwMSAxLjAwMSAwIDAwMS40MiAwIDEuMDA1IDEuMDA1IDAgMDAwLTEuNDIyIi8+PC9zdmc+");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: 10px 10px; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchbox .magic-box .magic-box-suggestions {
+    left: 0px;
+    right: 0px; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchbox .magic-box .magic-box-input {
+    background: none;
+    overflow: visible; }
+    .CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchbox .magic-box .magic-box-input > input {
+      border: solid 1px #a4a4a4;
+      border-radius: 4px;
+      height: 36px;
+      padding: 6px 36px 6px 36px;
+      font-size: 14px;
+      color: #4a4a4a; }
+    .CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchbox .magic-box .magic-box-input > input:focus {
+      border-color: #1589ee;
+      outline: 0;
+      box-shadow: 0 0 3px #0070d2; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchbox .magic-box.magic-box-hasFocus .magic-box-input > input {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchbox .magic-box .magic-box-clear {
+    height: 36px;
+    width: 36px;
+    background: none;
+    line-height: 28px;
+    font-size: 16px; }
+    .CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchbox .magic-box .magic-box-clear svg {
+      height: 12px;
+      width: 12px;
+      fill: #4a4a4a;
+      color: #4a4a4a; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchbox + .CoveoActionButton {
+  margin-left: 5px; }
+
+@media (max-width: 480px) {
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoSearchbox {
+    margin-right: unset; } }
+
+.CoveoSearchInterface[data-sf-design="luna"] .coveo-dropdown-header-wrapper {
+  display: none; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoActionButton.coveo-actionbutton {
+  border-width: 1px;
+  border-color: #a4a4a4; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoActionButton.coveo-actionbutton.coveo-toggleactionbutton-activated {
+    border-color: #1589ee;
+    background-color: #1589ee; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoResultActionsMenu {
+  border-color: #e5e5e5; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoResultActionsMenu svg {
+    color: #4a4a4a;
+    fill: #4a4a4a; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item,
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:not(.coveo-hidden):not([style*="display: none"]) ~ .coveo-result-actions-menu-menu-item:not(.coveo-hidden):not([style*="display:none"]) {
+    border-color: #e5e5e5; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoResultActionsMenu .coveo-result-actions-menu-menu-item:hover {
+    background-color: whitesmoke; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoResultActionsMenu .coveo-caption-for-icon {
+    background-color: #16325c; }
+    .CoveoSearchInterface[data-sf-design="luna"] .CoveoResultActionsMenu .coveo-caption-for-icon:before {
+      border-color: #16325c transparent; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoAttachToCase svg {
+  color: #4a4a4a;
+  fill: #4a4a4a; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoAttachToCase .coveo-attached svg {
+  color: #ecad00;
+  fill: #ecad00; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-list-item {
+  border-color: #e5e5e5;
+  color: #4a4a4a; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-list-item .coveo-pager-list-item-text {
+    color: #16325c;
+    text-decoration-color: #16325c; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-list-item:hover {
+    background-color: whitesmoke; }
+  .CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-list-item.coveo-active, .CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-list-item.coveo-active:hover {
+    background-color: #1589ee;
+    border-color: #1589ee; }
+    .CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-list-item.coveo-active .coveo-pager-list-item-text, .CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-list-item.coveo-active:hover .coveo-pager-list-item-text {
+      color: white;
+      text-decoration-color: white; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-previous:hover,
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-next:hover {
+  background-color: transparent; }
+
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-previous svg,
+.CoveoSearchInterface[data-sf-design="luna"] .CoveoPager .coveo-pager-next svg {
+  color: #4a4a4a;
+  fill: #4a4a4a; }

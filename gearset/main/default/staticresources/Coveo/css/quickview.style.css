@@ -1,0 +1,432 @@
+@font-face {
+  font-family: 'source_code_pro_regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SourceCodePro-Regular.eot?orgId=00D6C0000000hck");
+  src: url("../fonts/SourceCodePro-Regular.eot?orgId=00D6C0000000hck#iefix") format("embedded-opentype"), url("../fonts/SourceCodePro-Regular.woff?orgId=00D6C0000000hck") format("woff"), url("../fonts/SourceCodePro-Regular.ttf?orgId=00D6C0000000hck") format("truetype");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  display: flex;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bg-dark-blue {
+  background-color: #263e55;
+}
+
+.fill-dark-blue {
+  fill: #263e55;
+}
+
+.text-dark-blue {
+  color: #263e55;
+}
+
+.border-dark-blue {
+  border-color: #263e55;
+}
+
+.bg-darker-blue {
+  background-color: #193045;
+}
+
+.fill-darker-blue {
+  fill: #193045;
+}
+
+.text-darker-blue {
+  color: #193045;
+}
+
+.border-darker-blue {
+  border-color: #193045;
+}
+
+.bg-medium-blue {
+  background-color: #1d4f76;
+}
+
+.fill-medium-blue {
+  fill: #1d4f76;
+}
+
+.text-medium-blue {
+  color: #1d4f76;
+}
+
+.border-medium-blue {
+  border-color: #1d4f76;
+}
+
+.bg-light-blue {
+  background-color: #296896;
+}
+
+.fill-light-blue {
+  fill: #296896;
+}
+
+.text-light-blue {
+  color: #296896;
+}
+
+.border-light-blue {
+  border-color: #296896;
+}
+
+.bg-dark-grey {
+  background-color: #373737;
+}
+
+.fill-dark-grey {
+  fill: #373737;
+}
+
+.text-dark-grey {
+  color: #373737;
+}
+
+.border-dark-grey {
+  border-color: #373737;
+}
+
+.bg-dark-medium-grey {
+  background-color: #7a7d81;
+}
+
+.fill-dark-medium-grey {
+  fill: #7a7d81;
+}
+
+.text-dark-medium-grey {
+  color: #7a7d81;
+}
+
+.border-dark-medium-grey {
+  border-color: #7a7d81;
+}
+
+.bg-medium-grey {
+  background-color: #bcc3ca;
+}
+
+.fill-medium-grey {
+  fill: #bcc3ca;
+}
+
+.text-medium-grey {
+  color: #bcc3ca;
+}
+
+.border-medium-grey {
+  border-color: #bcc3ca;
+}
+
+.bg-light-grey {
+  background-color: #e6ecf0;
+}
+
+.fill-light-grey {
+  fill: #e6ecf0;
+}
+
+.text-light-grey {
+  color: #e6ecf0;
+}
+
+.border-light-grey {
+  border-color: #e6ecf0;
+}
+
+.bg-white {
+  background-color: #f1f3f4;
+}
+
+.fill-white {
+  fill: #f1f3f4;
+}
+
+.text-white {
+  color: #f1f3f4;
+}
+
+.border-white {
+  border-color: #f1f3f4;
+}
+
+.bg-pure-white {
+  background-color: #ffffff;
+}
+
+.fill-pure-white {
+  fill: #ffffff;
+}
+
+.text-pure-white {
+  color: #ffffff;
+}
+
+.border-pure-white {
+  border-color: #ffffff;
+}
+
+.bg-orange {
+  background-color: #f58020;
+}
+
+.fill-orange {
+  fill: #f58020;
+}
+
+.text-orange {
+  color: #f58020;
+}
+
+.border-orange {
+  border-color: #f58020;
+}
+
+.bg-red {
+  background-color: #ce3f00;
+}
+
+.fill-red {
+  fill: #ce3f00;
+}
+
+.text-red {
+  color: #ce3f00;
+}
+
+.border-red {
+  border-color: #ce3f00;
+}
+
+.bg-yellow {
+  background-color: #ecad00;
+}
+
+.fill-yellow {
+  fill: #ecad00;
+}
+
+.text-yellow {
+  color: #ecad00;
+}
+
+.border-yellow {
+  border-color: #ecad00;
+}
+
+.bg-green {
+  background-color: #009830;
+}
+
+.fill-green {
+  fill: #009830;
+}
+
+.text-green {
+  color: #009830;
+}
+
+.border-green {
+  border-color: #009830;
+}
+
+.bg-blue {
+  background-color: #009ad9;
+}
+
+.fill-blue {
+  fill: #009ad9;
+}
+
+.text-blue {
+  color: #009ad9;
+}
+
+.border-blue {
+  border-color: #009ad9;
+}
+
+.bg-salesforce-blue {
+  background-color: #00a0de;
+}
+
+.fill-salesforce-blue {
+  fill: #00a0de;
+}
+
+.text-salesforce-blue {
+  color: #00a0de;
+}
+
+.border-salesforce-blue {
+  border-color: #00a0de;
+}
+
+.bg-google-red {
+  background-color: #dd4b39;
+}
+
+.fill-google-red {
+  fill: #dd4b39;
+}
+
+.text-google-red {
+  color: #dd4b39;
+}
+
+.border-google-red {
+  border-color: #dd4b39;
+}
+
+.bg-office365-red {
+  background-color: #eb3c00;
+}
+
+.fill-office365-red {
+  fill: #eb3c00;
+}
+
+.text-office365-red {
+  color: #eb3c00;
+}
+
+.border-office365-red {
+  border-color: #eb3c00;
+}
+
+@keyframes toastFadeInTop {
+  from {
+    transform: translate(0, -100%);
+    opacity: 0;
+  }
+  
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes toastFadeInBottom {
+  from {
+    transform: translate(0, 100%);
+    opacity: 0;
+  }
+  
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.toast-container {
+  position: fixed;
+  top: 65px;
+  right: 0;
+  left: 0;
+  align-items: center;
+  flex-flow: column-reverse;
+  z-index: 9999;
+  box-sizing: border-box;
+  display: flex;
+  pointer-events: none;
+}
+
+.toast-container.mod-bottom {
+  top: inherit;
+  bottom: 20px;
+  flex-flow: column;
+}
+
+.toast-container.mod-bottom .toast.mod-animated {
+  animation-name: toastFadeInBottom;
+}
+
+.toast-container.mod-left {
+  right: inherit;
+  left: 20px;
+  align-items: flex-start;
+}
+
+.toast-container.mod-right {
+  right: 20px;
+  left: inherit;
+  align-items: flex-end;
+}
+
+.toast-container .toast {
+  display: block;
+  min-width: 280px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #009830;
+  pointer-events: all;
+}
+
+.toast-container .toast.mod-warning {
+  background-color: #ecad00;
+}
+
+.toast-container .toast.mod-error {
+  background-color: #ce3f00;
+}
+
+.toast-container .toast.mod-hidden {
+  display: none;
+}
+
+.toast-container .toast.mod-animated {
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-name: toastFadeInTop;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.toast-container .toast a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.toast-container .toast-close {
+  float: right;
+  cursor: pointer;
+}
+
+.toast-container .toast-close svg {
+  width: 16px;
+  height: 16px;
+}
+
+.toast-container .toast-title {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.toast-container .toast-description {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.coveo-modal-container.coveo-mod-big > .coveo-modal-content {
+  width: 100%;
+  height: 100%;
+}
