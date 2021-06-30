@@ -1,0 +1,16 @@
+.coveo-component-editor-body > .CoveoSearchInterface {
+  margin: 2rem auto 0;
+  max-height: unset; }
+
+.coveo-component-editor-body .coveo-add-new-tab-container {
+  display: none; }
+
+.coveo-component-editor {
+  height: 100%; }
+
+#editor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }

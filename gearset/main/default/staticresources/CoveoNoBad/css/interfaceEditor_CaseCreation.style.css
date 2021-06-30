@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/icomoon.eot?orgId=00D6C0000000hck");
+  src: url("../fonts/icomoon.eot?orgId=00D6C0000000hck") format("embedded-opentype"), url("../fonts/icomoon.woff?orgId=00D6C0000000hck") format("woff"), url("../fonts/icomoon.ttf?orgId=00D6C0000000hck") format("truetype"), url("../fonts/icomoon.svg?orgId=00D6C0000000hck") format("svg");
+}
+
+.icomoon:before {
+  font-family: 'icomoon';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.coveo-case-creation-column {
+  position: relative;
+}
+
+.coveo-case-creation-column.coveo-droppable .coveo-placeholder, .coveo-case-creation-column .coveo-droppable .coveo-placeholder {
+  max-width: 100%;
+}
+
+.coveo-results-column.coveo-droppable .coveo-placeholder, .coveo-results-column .coveo-droppable .coveo-placeholder {
+  max-width: 100%;
+}
+
+.coveo-case-creation-edit-header {
+  background: #08080e;
+  color: #f7f8f9;
+  font-size: 12px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  line-height: 25px;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+.coveo-container div[class*=coveo-visibleComponents] .CoveoComponent.coveo-draggable {
+  display: none;
+}
+
+.coveo-container div[class*=coveo-visibleComponents] .CoveoComponent.coveo-draggable[data-component*=Tab], .coveo-container div[class*=coveo-visibleComponents] .CoveoComponent.coveo-draggable[data-component*=Text], .coveo-container div[class*=coveo-visibleComponents] .CoveoComponent.coveo-draggable[data-component*=Field], .coveo-container div[class*=coveo-visibleComponents] .CoveoComponent.coveo-draggable[data-component*=Picklist], .coveo-container div[class*=coveo-visibleComponents] .CoveoComponent.coveo-draggable[data-component*=Submit], .coveo-container div[class*=coveo-visibleComponents] .CoveoComponent.coveo-draggable[data-component*=Cancel] {
+  display: flex;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=CaseCreation] [data-id$="_searchSort"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=CaseCreation] [data-id$="_search"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=CaseCreation] [data-id$="_useSomeOnAllKeywords"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=CaseCreation] [data-id$="_someBest"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=CaseCreation] [data-id$="_someMatch"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=CaseCreation] [data-id$="_someRemoveStopWords"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=CaseCreation] [data-id$="_someMaximum"] {
+  display: block !important;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_value"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_size"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_style"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_weight"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_textAlign"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_marginTop"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_marginBottom"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_marginLeft"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_marginRight"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_paddingTop"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_paddingBottom"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_paddingLeft"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Text] [data-id$="_paddingRight"] {
+  display: block !important;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=Field] [data-id$="_title"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Field] [data-id$="_numberOfLines"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Field] [data-id$="_caseField"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Field] [data-id$="_placeholder"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Field] [data-id$="_tooltip"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Field] [data-id$="_isRequired"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Field] [data-id$="_searchGroup"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Field] [data-id$="_enableSearch"] {
+  display: block !important;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_title"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_caseField"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_values"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_defaultValue"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_placeholder"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_tooltip"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_isRequired"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_searchGroup"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_enableSearch"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_addQreGroup"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_addQre"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_searchField"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_queryModifier"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_addSomeGroup"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_addSome"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_someBest"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_someMatch"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_someRemoveStopWords"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Picklist] [data-id$="_someMaximum"] {
+  display: block !important;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=Submit] [data-id$="_title"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Submit] [data-id$="_redirectUrl"] {
+  display: block !important;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=Cancel] [data-id$="_title"], .coveo-basicMode .coveo-settingsEditorContainer [data-type=Cancel] [data-id$="_redirectUrl"] {
+  display: block !important;
+}
