@@ -6,7 +6,7 @@ window.Coveo = window.Coveo || {};var c4sf =
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/
-/******/ 		// Check if module is in cache
+/******/ 		// Check if module is in cache - xyz
 /******/ 		if(installedModules[moduleId]) {
 /******/ 			return installedModules[moduleId].exports;
 /******/ 		}
