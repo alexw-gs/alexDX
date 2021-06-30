@@ -1,0 +1,157 @@
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=BoxHeader] .coveo-option {
+  display: block !important;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=BoxHeader] .coveo-subOptions {
+  display: none !important;
+}
+
+.CoveoBoxHeader .CoveoSearchbox {
+  position: relative !important;
+}
+
+.coveo-editionMode .CoveoBoxPopup .coveo-box-popup-toggle.coveo-hidden {
+  display: block;
+}
+
+.coveo-editionMode .CoveoBoxPopup .coveo-box-popup-toggle.coveo-hidden:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@font-face {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/icomoon.eot?orgId=00D6C0000000hck");
+  src: url("../fonts/icomoon.eot?orgId=00D6C0000000hck") format("embedded-opentype"), url("../fonts/icomoon.woff?orgId=00D6C0000000hck") format("woff"), url("../fonts/icomoon.ttf?orgId=00D6C0000000hck") format("truetype"), url("../fonts/icomoon.svg?orgId=00D6C0000000hck") format("svg");
+}
+
+.icomoon:before {
+  font-family: 'icomoon';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-id=BoxQuerySome_disableOnNonContextualSearch], .coveo-basicMode .coveo-settingsEditorContainer [data-id=BoxQueryGeneric_disableOnNonContextualSearch], .coveo-basicMode .coveo-settingsEditorContainer [data-id=BoxQueryExtensions_disableOnNonContextualSearch] {
+  display: none !important;
+}
+
+.CoveoBoxHeader .CoveoSearchbox {
+  position: relative !important;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=BoxQueryGeneric] .coveo-option {
+  display: block !important;
+}
+
+.coveo-noConfig {
+  margin: 12px 25px;
+  padding: 12px;
+  background-color: #e6ecf0;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=BoxQuerySome] .coveo-option {
+  display: block !important;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=BoxQuickview] [data-id=BoxQuickview_enableLoadingAnimation], .coveo-basicMode .coveo-settingsEditorContainer [data-type=BoxQuickview] [data-id=BoxQuickview_contentTemplateSelector], .coveo-basicMode .coveo-settingsEditorContainer [data-type=BoxQuickview] [data-id=BoxQuickview_contentTemplateId], .coveo-basicMode .coveo-settingsEditorContainer [data-type=BoxQuickview] [data-id=BoxQuickview_loadingAnimation] {
+  display: none !important;
+}
+
+.coveo-component-icon.CoveoComponent.CoveoBoxResultAction {
+  background-color: initial;
+  border: none;
+}
+
+.coveo-component-icon.CoveoComponent.CoveoBoxResultAction:after {
+  display: none;
+}
+
+.coveo-editionMode .coveo-tab-section.coveo-inline-tab-section {
+  min-width: 40px;
+}
+
+.coveo-basicMode .coveo-settingsEditorContainer [data-type=BoxCreateArticle] [data-id=BoxCreateArticle_hidden] {
+  display: block !important;
+}
+
+.coveo-component-editor {
+  height: 100%;
+}
+
+body.coveo-editionMode {
+  padding: 0;
+  box-sizing: content-box;
+  overflow-y: hidden;
+}
+
+body.coveo-editionMode svg {
+  vertical-align: baseline;
+}
+
+body.coveo-editionMode .coveo-editor-caret .coveo-editor-caret-bottom {
+  bottom: -10px;
+}
+
+.coveo-display-modes {
+  display: none;
+}
+
+.coveo-box-popup-wrapper .coveo-tab-section, .coveo-box-popup-wrapper .coveo-sort-section {
+  min-height: 38px;
+  min-width: 100px;
+}
+
+.coveo-box-popup-wrapper .coveo-tab-section .coveo-placeholder, .coveo-box-popup-wrapper .coveo-sort-section .coveo-placeholder {
+  max-height: 38px;
+  height: 38px;
+  padding: 0 50%;
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 0;
+}
+
+.coveo-box-popup-wrapper .coveo-box-facet-column {
+  min-height: 100%;
+}
+
+.coveo-box-popup-wrapper .coveo-box-facet-column .coveo-placeholder {
+  max-width: 100%;
+}
+
+.coveo-tab-section.coveo-droppable:after {
+  position: absolute;
+}
+
+.CoveoSearchInterface {
+  padding: 10px 10px 0px 10px;
+}
+
+.CoveoSearchInterface.CoveoBox .coveo-tab-section.coveo-inline-tab-section > .coveo-placeholder {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.coveo-component-editor-section-icon {
+  line-height: 12px;
+}
+
+.coveo-component-editor-body {
+  width: 500px !important;
+  margin: auto !important;
+}
+
+.coveo-box-popup-wrapper {
+  max-width: 500px !important;
+  margin: auto !important;
+}
