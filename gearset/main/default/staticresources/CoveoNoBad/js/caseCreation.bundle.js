@@ -1,6 +1,6 @@
 window.Coveo = window.Coveo || {};var c4sf =
 /******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
+/******/ 	// The module cache - 1234
 /******/ 	var installedModules = {};
 /******/
 /******/ 	// The require function
