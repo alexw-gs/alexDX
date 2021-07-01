@@ -1,0 +1,201 @@
+/*
+* @param direction vertical or horizontal
+* @param position type of positioning to apply (relative/absolute)
+*/
+/*
+* @param $selector css selector on which to apply the icon. Can be '&' if the icon should be applied on the current element;
+* @param $size size of the icon to use
+*/
+@-webkit-keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-moz-keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-o-keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes coveo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+@-moz-keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+@-o-keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes smooth-spin {
+  from {
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); } }
+
+.CoveoAttachToCase {
+  height: 18px;
+  display: inline-block; }
+  .CoveoAttachToCase > div {
+    position: relative;
+    height: 100%; }
+  .CoveoAttachToCase .coveo-attach-to-case-icon {
+    display: inline-block; }
+  .CoveoAttachToCase:hover .coveo-caption-for-icon {
+    display: block; }
+  .CoveoAttachToCase .coveo-caption-for-icon {
+    font-size: 12px;
+    display: none;
+    background: #263E55;
+    color: white;
+    border-radius: 2px;
+    padding: 6px 16px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    transform: translate(calc(16px / 2 - 50%), 6px); }
+    .CoveoAttachToCase .coveo-caption-for-icon:before {
+      border: solid;
+      border-color: #263E55 transparent;
+      border-width: 0 6px 7px;
+      content: '';
+      position: absolute;
+      z-index: 99;
+      top: -6px;
+      left: calc(50% - 6px); }
+  .CoveoAttachToCase span {
+    display: inline-block;
+    color: #adadad;
+    cursor: pointer;
+    vertical-align: middle; }
+    .CoveoAttachToCase span.coveo-attach-to-case-text {
+      display: inline-block;
+      color: #adadad;
+      cursor: pointer;
+      vertical-align: middle;
+      padding-left: 5px; }
+    .CoveoAttachToCase span:before {
+      display: inline-block;
+      content: '';
+      vertical-align: middle; }
+
+.CoveoAttachToCase {
+  height: 18px;
+  display: inline-block; }
+  .CoveoAttachToCase > span {
+    padding: 0px 1px 0px 1px; }
+  .CoveoAttachToCase .coveo-readonly * {
+    cursor: inherit; }
+  .CoveoAttachToCase .coveo-attached svg.coveo-attach-icon {
+    display: inline-block;
+    fill: #ecad00; }
+  .CoveoAttachToCase .coveo-attach svg.coveo-attach-icon, .CoveoAttachToCase .coveo-icon-loading svg.coveo-attach-icon {
+    display: inline-block;
+    fill: #1d4f76; }
+  .CoveoAttachToCase .coveo-loading svg.coveo-loading-icon {
+    display: inline-block;
+    fill: #373737;
+    animation: loading 0.8s linear 0s infinite normal running; }
+  .CoveoAttachToCase .coveo-loading svg.coveo-attach-icon {
+    display: none; }
+  .CoveoAttachToCase svg.coveo-attach-icon {
+    display: none;
+    height: 1em;
+    width: 1em;
+    vertical-align: sub; }
+  .CoveoAttachToCase svg.coveo-loading-icon {
+    display: none;
+    height: 1em;
+    width: 1em;
+    vertical-align: sub; }
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
