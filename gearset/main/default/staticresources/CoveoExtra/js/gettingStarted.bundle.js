@@ -17,7 +17,7 @@ window.Coveo = window.Coveo || {};var c4sf =
 /******/ 			exports: {}
 /******/ 		};
 /******/
-/******/ 		// Execute the module function - ijk
+/******/ 		// Execute the module function
 /******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/
 /******/ 		// Flag the module as loaded
